@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background:#F3E0E2;
+    box-sizing: border-box;
+    display: block;
+    
+}
+
+.login{
+    height: auto;
+    width:  900px;
+    background-color: #fff;
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px  black;
+
+    
+    
+
+}
+
+.login .login-left{
+    width: 50%; 
+    height:470px;
+    text-align: center;
+    background: #fff;
+    display: inline-block;
+    padding-top:  20px;
+    color: #333333;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.login .login-left .social{
+    font-size: 30px;
+    padding: 20px 0;
+    
+}
+
+.login .login-left .button{
+    background-color: #ff4b2a;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    
+    
+}
+
+.login .login-left .button a{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.login .login-left form input{
+    width: 300px;
+    border: none;
+    margin-top:10px;
+    height: 40px ;
+    background:#EEEEEE ;
+    border-radius: 1px;
+}
+
+.login .login-right{
+    width: 50%;
+    color: #fff;
+    background: #fe464e;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    height: 470px;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+}
+
+.login .login-right .yazi{
+    
+    position:relative ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
